@@ -1,0 +1,72 @@
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="horizontal"
+    android:background="@drawable/bg4"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <ImageView
+        android:id="@+id/buttonimage1"
+        android:layout_width="432dp"
+        android:layout_height="417dp"
+        android:scaleType="center"
+        android:src="@drawable/scissor01"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteY="237dp" />
+
+    <ImageView
+        android:id="@+id/buttonimage2"
+        android:layout_width="432dp"
+        android:layout_height="417dp"
+        android:scaleType="center"
+        android:src="@drawable/rock01"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.639"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteY="237dp" />
+
+    <ImageView
+        android:id="@+id/buttonimage3"
+        android:layout_width="432dp"
+        android:layout_height="417dp"
+        android:scaleType="center"
+        android:src="@drawable/paper02"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteY="228dp" />
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="match_parent"
+        android:layout_height="129dp"
+        android:layout_marginBottom="28dp"
+        android:background="@drawable/button"
+        android:text="@string/app_name"
+        android:textColor="#05465C"
+        android:textSize="70dp"
+        android:textStyle="italic|bold"
+        app:elevation="10dp"
+        android:shadowColor="#05465C"
+
+        android:shadowDx="10"
+        android:shadowDy="10"
+        android:shadowRadius="10"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.575"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        tools:ignore="MissingConstraints,MissingPrefix">
+
+    </Button>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+

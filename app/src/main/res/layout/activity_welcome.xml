@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/bg4"
+    tools:context="com.example.RockPaperScissor.welcome">
+
+
+
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="130dp"
+        android:layout_height="120dp"
+      android:layout_centerInParent="true"
+        android:layout_centerVertical="true"
+        android:background="@drawable/submitbtn"
+        android:shadowColor="#EFB404"
+        android:shadowDx="5"
+        android:shadowDy="5"
+        android:shadowRadius="10"
+        android:text="@string/_2_rounds"
+        android:translationZ="130dp"
+        android:textColor="#CFCFCF"
+        android:textSize="25sp"
+        android:textStyle="italic|bold"
+        app:elevation="130dp"
+        tools:layout_editor_absoluteX="155dp"
+        tools:layout_editor_absoluteY="222dp" />
+
+
+
+    <EditText
+        android:id="@+id/editText1"
+        android:layout_width="250dp"
+        android:layout_height="70dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerVertical="true"
+        android:layout_marginTop="64dp"
+        android:layout_centerInParent="true"
+        android:inputType="textPersonName|textCapWords"
+        android:hint="Enter Player1 Name"
+        android:textAlignment="center"
+        android:textColorHint="#05465C"
+        android:textSize="25sp"
+        android:background="@drawable/bg4"
+        android:textStyle="bold|italic"
+        android:textColor="#05465C"
+        />
+
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="250dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="50dp"
+        android:textSize="25sp"
+        android:textAlignment="center"
+        android:inputType="textPersonName|textCapWords"
+        android:layout_centerVertical="true"
+        android:layout_centerInParent="true"
+        android:layout_below="@id/editText1"
+        android:textColorHint="#05465C"
+        android:hint="Enter Player2 Name"
+        android:background="@drawable/bg4"
+        android:textStyle="bold|italic"
+        android:textColor="#05465C">
+
+    </EditText>
+    <pl.droidsonroids.gif.GifImageView
+        android:layout_width="300dp"
+        android:layout_height="220dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerInParent="true"
+        android:src="@drawable/playgif"
+        android:layout_marginBottom="30sp"
+        >
+
+    </pl.droidsonroids.gif.GifImageView>
+
+
+
+</RelativeLayout>

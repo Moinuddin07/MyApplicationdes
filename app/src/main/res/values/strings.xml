@@ -1,0 +1,13 @@
+<resources>
+
+    <string name="app_name">Play🖐</string>
+    <string name="RockPaperScissor">RockPaperScissor </string>
+    <string name="Play" />
+    <string name="_3_rounds">3 Rounds 🕹</string>
+    <string name="_2_rounds">Submit</string>
+    <string name="text_size" />
+    <string name="exit">Exit</string>
+    <string name="next_round">Next Round</string>
+
+
+</resources>
